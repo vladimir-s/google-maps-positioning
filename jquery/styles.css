@@ -1,0 +1,12 @@
+#cities {
+	float: left;
+	width: 30%;
+}
+
+#cities ul li {
+	cursor: pointer;
+}
+
+#map {
+	float: right;
+}

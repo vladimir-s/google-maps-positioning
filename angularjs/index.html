@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en-US" ng-app="mapPositioningApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Gogole Maps</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="MapPositioning">
+	<header></header>
+	<div class="content">
+		<div id="cities">
+			<ul>
+				<li ng-repeat="city in cities" ng-click="showCity(city)">{{ city.city }}</li>
+			</ul>
+		</div>
+		<div id="map" ng-init="initialize()"></div>
+	</div>
+	<footer></footer>
+	<script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
