@@ -2,11 +2,12 @@
 <html lang="en-US" ng-app="mapPositioningApp">
 <head>
 	<meta charset="UTF-8">
-	<title>Gogole Maps</title>
+	<title>Gogole Maps positioning</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body ng-controller="MapPositioning">
-	<header></header>
+	<header>Google maps positioning</header>
+	<div class="hint">Click on a city name to view it on the map</div>
 	<div class="content">
 		<div id="cities">
 			<ul>
@@ -15,7 +16,7 @@
 		</div>
 		<div id="map" ng-init="initialize()"></div>
 	</div>
-	<footer></footer>
+	<footer><a href="http://www.simplecoding.org/">simplecoding.org</a></footer>
 	<script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
 	<script src="main.js"></script>

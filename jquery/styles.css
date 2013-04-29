@@ -1,12 +1,39 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+	font-size: 120%;
+	color: #555;
+	padding: 1em 1em 1em 1em;
+}
+
+.hint {
+	color: #555;
+	padding: 1em 1em 1em 1.2em;
+}
+
 #cities {
 	float: left;
 	width: 30%;
 }
 
+#cities ul {
+}
+
 #cities ul li {
 	cursor: pointer;
+	padding-top: 0.5em;
 }
 
 #map {
 	float: right;
+}
+
+footer {
+	clear: both;
+	border-top: solid 1px #999;
+	padding: 1em 0 0 1em;
+	margin: 1em 0 0 0;
+	font-size: 80%;
 }

@@ -1,32 +1,32 @@
 [
 	{
-		"city": "Киев",
+		"city": "Kiev",
 		"lat": 50.5,
 		"lng": 30.5,
-		"desc": "столица Украины"
+		"desc": "the capital of Ukraine"
 	},
 	{
-		"city": "Москва",
+		"city": "Moscow",
 		"lat": 55.8,
 		"lng": 37.6,
-		"desc": "столица Российской Федерации"
+		"desc": "the capital of Russian Federation"
 	},
 	{
-		"city": "Минск",
+		"city": "Minsk",
 		"lat": 53.9,
 		"lng": 27.6,
-		"desc": "столица Белоруссии"
+		"desc": "the capital of Belarus"
 	},
 	{
-		"city": "Варшава",
+		"city": "Warsaw",
 		"lat": 52.2,
 		"lng": 21.0,
-		"desc": "столица Польши"
+		"desc": "the capital of Poland"
 	},
 	{
-		"city": "Лондон",
+		"city": "London",
 		"lat": 51.5,
 		"lng": -0.1,
-		"desc": "столица Великобритании"
+		"desc": "the capital of Great Britain"
 	}
 ]
